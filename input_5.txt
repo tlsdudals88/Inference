@@ -1,0 +1,29 @@
+6
+A(Bob)
+B(Peter)
+Z(Kim)
+R(Recursive)
+A(John)
+H(Julie)
+18
+B(x) ^ C(y) ^ Z(z) => A(x)
+A(x) => B(x)
+C(x) => A(x)
+A(z) ^ B(y) => Z(x)
+G(x) => R(x)
+R(y) => G(x)
+R(NonRecursive)
+A(Kim)
+A(G)
+C(Peter)
+B(Bob)
+C(Bob)
+I(x) ^ J(y) ^ K(x) => H(x)
+H(y) => K(x)
+I(x) ^ J(y) ^ K(z) => H(x)
+I(Julie)
+J(Tom)
+K(Jack)
+
+
+

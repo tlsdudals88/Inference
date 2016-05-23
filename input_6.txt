@@ -1,0 +1,17 @@
+2
+G(A)
+B(A)
+12
+A(a,b) ^ B(b) => B(a)
+A(a,F) ^ B(F) => B(a)
+A(A,B)
+A(B,C)
+A(C,D)
+A(D,E)
+A(E,F)
+F(b) ^ D(a,b) => G(a)
+I(b) => F(b)
+G(b) => I(b)
+D(A,B)
+K(B) => I(b)
+
